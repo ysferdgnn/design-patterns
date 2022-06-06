@@ -6,7 +6,7 @@ import org.ysferdgnn.patterns.factory.errors.UnSupportedConnectionTypeError;
 
 public class ConnectionFactory {
 
-    private Connections connections;
+    private final Connections connections;
 
     public ConnectionFactory(Connections connections) {
         this.connections = connections;
