@@ -14,7 +14,7 @@ public class FormulaOneTeam {
     @Setter
     private F1TEAM team;
     @Getter
-    private BudgetStrategyContext budgetStrategyContext;
+    private final BudgetStrategyContext budgetStrategyContext;
 
     public FormulaOneTeam(F1TEAM team) {
         this.team = team;
